@@ -3,7 +3,7 @@
 This project explores prompt engineering strategies for teaching large language models (LLaMA-2 via Together.ai API) to perform 7-digit integer addition. The work was conducted in the context of **Week 4** of the NLP course at NYU, and focuses on both theoretical and practical challenges in eliciting reliable arithmetic behavior from large pre-trained models using in-context learning.
 
 ## Folder Structure
-
+```
 Prompt_Based_Addition/
 ├── addition_prompting.ipynb        # Notebook for zero-shot and few-shot prompting
 ├── prompt.txt                      # Manually crafted prompts
@@ -11,7 +11,7 @@ Prompt_Based_Addition/
 ├── test_prompts.py                 # Evaluation script (local)
 ├── requirements.txt                # Required libraries
 └── README.md                       # This file
-
+```
 ## Task Description
 
 The task is to accurately compute the sum of two random 7-digit integers using a language model, with no arithmetic logic hard-coded into the model. The training process is entirely prompt-based, using zero-shot and in-context learning techniques.
